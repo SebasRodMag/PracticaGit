@@ -152,3 +152,27 @@ Se puede visitar la pagina web [aquí.](https://sebasrodmag.github.io/PracticaGi
 
 ![Muestra pagina web](Capturas/cap06.jpg)
 
+## Uso de Git mediante la interfaz de VSCode:
+
+### Creación de otro commit
+
+Mediante la interfaz grafica de Visul Studio, relizamos un nuevo commit para las nuevas modificaciones realizadas.
+
+![Realizacion del commit](Capturas/cap07.jpg)
+
+### Subir el repositorio a Github
+
+Luego de realizar el commit, realizamos la publicación:
+
+![Subida de archivos](Capturas/cap08.jpg)
+
+### Comprobar que está subido a Github
+
+Verificamos en el repositorio de GitHub que todo se ha subido correctamente:
+![Repositorio gitHub](Capturas/cap09.jpg)
+
+### Ver el listado de commit desde Github.
+
+Vemos los commits realizados desde la pagina de GitHub:
+
+![Commits realizados](Capturas/cap10.jpg)
