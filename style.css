@@ -1,0 +1,43 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.fondo {
+  position: relative;
+  margin-left: 20%;
+  display: inline-block;
+  background-image: url(./img/Imagen2.png);
+  height: 200px;
+  width: 600px;
+}
+h1{
+  text-align: center;
+  margin-top: 15%;
+  font-family: "Oswald", sans-serif;
+  font-size: 300%;
+  color: rgb(25, 9, 85);
+
+}
+  
+  
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(25, 9, 85);
+  font-family: "Oswald", sans-serif;
+  
+}
+
+a {
+  width: 200px;
+  height: 20px;
+  display: inline-block;
+  border: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  color: azure;
+}
