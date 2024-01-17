@@ -1,6 +1,7 @@
 body {
   max-width: 1000px;
   margin: 0 auto;
+  font-family: "Roboto", sans-serif;
   
 }
 
@@ -48,12 +49,13 @@ figure{
   display:inline-block;
   
   
-  width: 24%;
+  
+  width: 33%;
   margin: 0%;
   
 }
 .descripcion{
-  text-align: top;
+  
   
 }
 .Imagen{
