@@ -60,11 +60,15 @@ figure{
 }
 .nombretab{
   width: 200px;
-  background-color: brown;
+  /* background-color: brown; */
+  border-bottom-color: black;
 }
 table{
-  border-bottom: 2px;
-  border-color: black;
-  text-align: center;
-
+    text-align: center;
+    border-style: solid;
+    border-color: transparent;
+}
+td{
+  border-style: solid;
+  border-color: rgba(180, 20, 20, 0.055);
 }
