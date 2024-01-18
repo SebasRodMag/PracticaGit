@@ -47,18 +47,24 @@ a {
 }
 figure{
   display:inline-block;
-  
-  
-  
   width: 33%;
   margin: 0%;
-  
-}
-.descripcion{
-  
-  
 }
 .Imagen{
   width: 100%;
   
+}
+.imgtab{
+  height: 150px;
+  width: 200px;
+}
+.nombretab{
+  width: 200px;
+  background-color: brown;
+}
+table{
+  border-bottom: 2px;
+  border-color: black;
+  text-align: center;
+
 }

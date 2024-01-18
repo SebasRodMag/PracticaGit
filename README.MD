@@ -1,10 +1,10 @@
 ## PRÁCTICA GIT, MARKDOWN, GITHUB
 ## Identificación.
 * Andrés Sebastián Rodríguez Magallanes\
-* Lenguage de Marcas y Sistemas de Gestión.\
+* Lenguaje de Marcas y Sistemas de Gestión.\
 * IES Aguadulce.\
 * 1º Desarrollo de Aplicaciones Web.\
-* Enlace a la web [Practica Git](https://sebasrodmag.github.io/PracticaGit/ "Link a la pagina")
+* Enlace a la web [Practica Git](https://sebasrodmag.github.io/PracticaGit/ "Link a la página")
 
 ## Uso de Git mediante la terminal git bash.
 * Creación del repositorio en nuestro ordenador (_init_)
@@ -37,8 +37,7 @@ Date:   Mon Jan 15 21:22:29 2024 +0100
     Creamos archivo index.html y readme.md
 ```
 * Creación del repositorio en _Github_
-
-![Crear repositorio en Github](/Capturas/cap01.jpg)
+<img src="./Capturas/cap01.jpg" width="400px" />
 
 * Añadir el remoto al repositorio local (_branch_, _remote_)
 
@@ -77,13 +76,14 @@ To https://github.com/SebasRodMag/PracticaGit.git
 ```
 * Comprobar que está subido a Github.
 
-![Vista repositorio](/Capturas/cap02.jpg)
+<img src="./Capturas/cap02.jpg" width="400px" />
+
 
 ## Cambiar el nombre a la rama Master.
 
-Este cambio deberia de haberse hecho en el primer momento que se crea el repositorio y se vincula a Git.\
+Este cambio debería de haberse hecho en el primer momento que se crea el repositorio y se vincula a Git.\
 **Para solucionarlo:**
-* Con el parametro _-m_ renombramos la rama
+* Con el parámetro _-m_ renombramos la rama
 ```
 sebas@HP-Sebas MINGW64 /d/OneDrive/DAW/Lenguaje de Marcas/PracticaGit (master)
 $ git branch -m main
@@ -103,7 +103,7 @@ hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 * Por precaución, no nos permite cambiar el nombre de la rama en el repositorio, dado a que hay contenido en él.\
-Hacemos un Pull para hacegurar que elcontenido del repositorio se corresponde con el que tenemos en local.
+Hacemos un Pull para asegurar que el contenido del repositorio se corresponde con el que tenemos en local.
 
 ```
 sebas@HP-Sebas MINGW64 /d/OneDrive/DAW/Lenguaje de Marcas/PracticaGit (main)
@@ -128,51 +128,51 @@ To https://github.com/SebasRodMag/PracticaGit.git
  + 021ed17...30ddedb main -> main (forced update)
 ```
 * Comprobamos el contenido del repositorio en la nueva rama.
+<img src="./Capturas/cap03.jpg" width="400px" />
 
-![Comprobamos el contenido dentro de la rama  main](Capturas/cap03.jpg)
 
 # Publicación en Github Pages:
 
 ## Configurar el repositorio para que publique el directorio raíz en Github Pages.
 
-En GitHub Pages se permite la implementación desde la raiz de la rama main.
+En GitHub Pages se permite la implementación desde la raíz de la rama main.
 
-![Se autoriza el depoyment](Capturas/cap04.jpg)
+<img src="./Capturas/cap04.jpg" width="400px" />
 
 ## Mostrar los despliegues (deployments).
 
-Se muestran tanto el despliege de la pagina web.
+Se muestran tanto el despliegue de la pagina web.
 
-![Muestra los despliegues](Capturas/cap05.jpg)
+<img src="./Capturas/cap05.jpg" width="400px" />
 
 ## Mostrar la página web.
 
-Muestra de la pagina web con un codigo base.
-Se puede visitar la pagina web [aquí.](https://sebasrodmag.github.io/PracticaGit/ "Link a la pagina")
+Muestra de la página web con un codigo base.
+Se puede visitar la página web [aquí.](https://sebasrodmag.github.io/PracticaGit/ "Link a la página")
 
-![Muestra pagina web](Capturas/cap06.jpg)
+<img src="./Capturas/cap06.jpg" width="400px" />
 
 ## Uso de Git mediante la interfaz de VSCode:
 
 ### Creación de otro commit
 
-Mediante la interfaz grafica de Visul Studio, relizamos un nuevo commit para las nuevas modificaciones realizadas.
+Mediante la interfaz gráfica de Visual Studio, realizamos un nuevo commit para las nuevas modificaciones realizadas.
 
-![Realizacion del commit](Capturas/cap07.jpg)
+<img src="./Capturas/cap07.jpg" width="400px" />
 
 ### Subir el repositorio a Github
 
 Luego de realizar el commit, realizamos la publicación:
 
-![Subida de archivos](Capturas/cap08.jpg)
+<img src="./Capturas/cap08.jpg" width="400px" />
 
 ### Comprobar que está subido a Github
 
 Verificamos en el repositorio de GitHub que todo se ha subido correctamente:
-![Repositorio gitHub](Capturas/cap09.jpg)
+<img src="./Capturas/cap09.jpg" width="400px" />
 
 ### Ver el listado de commit desde Github.
 
-Vemos los commits realizados desde la pagina de GitHub:
+Vemos los commits realizados desde la página de GitHub:
 
-![Commits realizados](Capturas/cap10.jpg)
+<img src="./Capturas/cap10.jpg" width="400px" />
