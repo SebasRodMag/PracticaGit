@@ -28,7 +28,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(25, 9, 85);
+  background: rgba(10, 9, 85, 0.76);
   font-family: "Oswald", sans-serif;
   
 }
@@ -61,7 +61,7 @@ figure{
 .nombretab{
   width: 200px;
   /* background-color: brown; */
-  border-bottom-color: black;
+  border-bottom-color: rgba(60, 58, 158, 0.452);
 }
 table{
     text-align: center;
@@ -70,5 +70,5 @@ table{
 }
 td{
   border-style: solid;
-  border-color: rgba(180, 20, 20, 0.055);
+  border-color: rgba(36, 20, 180, 0.185);
 }
