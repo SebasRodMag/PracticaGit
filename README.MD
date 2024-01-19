@@ -4,7 +4,7 @@
 * Lenguaje de Marcas y Sistemas de Gestión.\
 * IES Aguadulce.\
 * 1º Desarrollo de Aplicaciones Web.\
-* Enlace a la web [Practica Git](https://sebasrodmag.github.io/PracticaGit/ "Link a la página")
+* Enlace a la web [Informatica Roquetas](https://sebasrodmag.github.io/PracticaGit/ "Link a la página")
 
 ## Uso de Git mediante la terminal git bash.
 * Creación del repositorio en nuestro ordenador (_init_)
@@ -14,11 +14,14 @@ sebas@HP-Sebas MINGW64 /d/OneDrive/DAW/Lenguaje de Marcas/PracticaGit (master)
 $ git init
 Initialized empty Git repository in D:/OneDrive/DAW/Lenguaje de Marcas/PracticaGit/.git/
 ```
+Se inicializa git en el directorio de trabajo.
 * Creación de un commit inicial (_add_, _status_, _commit_, _log_),
 ```
 sebas@HP-Sebas MINGW64 /d/OneDrive/DAW/Lenguaje de Marcas/PracticaGit (master)
 $ git add index.html README.MD
 ```
+Se han creado los archivos index.html y readme.md, donde comenzaremos a trabajar.\
+Mediante el comando `add` los agregamos al staging área para que git le haga un seguimiento.
 ```
 sebas@HP-Sebas MINGW64 /d/OneDrive/DAW/Lenguaje de Marcas/PracticaGit (master)
 $ git commit -m "Creamos archivo index.html y readme.md "
@@ -27,6 +30,7 @@ $ git commit -m "Creamos archivo index.html y readme.md "
  create mode 100644 README.MD
  create mode 100644 index.html
 ```
+Utilizando el comando `commit -m` guardamos esta etapa en particular y los cambios realizados en ella, agregando anotaciones para recordar o informar al resto del esquipo que pudiera estar trabajando en este proyecto los cambios realizados.
 ```
 sebas@HP-Sebas MINGW64 /d/OneDrive/DAW/Lenguaje de Marcas/PracticaGit (master)
 $ git log
@@ -36,8 +40,12 @@ Date:   Mon Jan 15 21:22:29 2024 +0100
 
     Creamos archivo index.html y readme.md
 ```
+Mediate el comando `log` verificamos los commits realizados y el autor de los mismos.
 * Creación del repositorio en _Github_
+
 <img src="./Capturas/cap01.jpg" width="400px" />
+
+Creamos un nuevo repositorio en GitHub, donde trabajaremos desde git.
 
 * Añadir el remoto al repositorio local (_branch_, _remote_)
 
@@ -46,16 +54,20 @@ sebas@HP-Sebas MINGW64 /d/OneDrive/DAW/Lenguaje de Marcas/PracticaGit (master)
 $ git branch
 * master
 ```
+Con el comando `Branch` verificamos que estamos trabajando en la rama Master.
 ```
 sebas@HP-Sebas MINGW64 /d/OneDrive/DAW/Lenguaje de Marcas/PracticaGit (master)
 $ git remote add origin https://github.com/SebasRodMag/PracticaGit.git
 ```
+Utilizamos `remote add origin` y la dirección url del repositorio para agregar el repositorio de GitHub a git.
 ```
 sebas@HP-Sebas MINGW64 /d/OneDrive/DAW/Lenguaje de Marcas/PracticaGit (master)
 $ git remote -v
 origin  https://github.com/SebasRodMag/PracticaGit.git (fetch)
 origin  https://github.com/SebasRodMag/PracticaGit.git (push)
 ```
+Con el comando `remote -v` vemos los repositorios que tenemos configurados. Esto se hace para verificar que cuando hagamos el `push`, lo haremos al repositorio correcto.
+
 * Subir el repositorio a Github (_push_)
 
 ```
@@ -74,21 +86,24 @@ remote:
 To https://github.com/SebasRodMag/PracticaGit.git
  * [new branch]      master -> master
 ```
+
+Mediante el comando `push` "empujamos" el contenido de la zona Stage al repositorio de GitHub.
 * Comprobar que está subido a Github.
 
 <img src="./Capturas/cap02.jpg" width="400px" />
 
+Verificamos en GitHub que el contenido se ha cargado correctamente.
 
 ## Cambiar el nombre a la rama Master.
 
 Este cambio debería de haberse hecho en el primer momento que se crea el repositorio y se vincula a Git.\
 **Para solucionarlo:**
-* Con el parámetro _-m_ renombramos la rama
+Con el parámetro `-m` renombramos la rama
 ```
 sebas@HP-Sebas MINGW64 /d/OneDrive/DAW/Lenguaje de Marcas/PracticaGit (master)
 $ git branch -m main
 ```
-* Actualizamos los _symbolic refs_ para usar la rama como main
+Actualizamos los `symbolic refs` para usar la rama como main
 
 ```
 sebas@HP-Sebas MINGW64 /d/OneDrive/DAW/Lenguaje de Marcas/PracticaGit (main)
@@ -103,7 +118,7 @@ hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 * Por precaución, no nos permite cambiar el nombre de la rama en el repositorio, dado a que hay contenido en él.\
-Hacemos un Pull para asegurar que el contenido del repositorio se corresponde con el que tenemos en local.
+Hacemos un `Pull` para asegurar que el contenido del repositorio se corresponde con el que tenemos en local.
 
 ```
 sebas@HP-Sebas MINGW64 /d/OneDrive/DAW/Lenguaje de Marcas/PracticaGit (main)
@@ -127,9 +142,12 @@ Total 10 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/SebasRodMag/PracticaGit.git
  + 021ed17...30ddedb main -> main (forced update)
 ```
+
 * Comprobamos el contenido del repositorio en la nueva rama.
+
 <img src="./Capturas/cap03.jpg" width="400px" />
 
+Vemos como, ahora, el contenido del repositorio se aloja en la rama Main.
 
 # Publicación en Github Pages:
 
@@ -145,12 +163,16 @@ Se muestran tanto el despliegue de la pagina web.
 
 <img src="./Capturas/cap05.jpg" width="400px" />
 
+Muestra los despiegues realizados hasta ese momento.
+
 ## Mostrar la página web.
 
 Muestra de la página web con un codigo base.
 Se puede visitar la página web [aquí.](https://sebasrodmag.github.io/PracticaGit/ "Link a la página")
 
 <img src="./Capturas/cap06.jpg" width="400px" />
+
+Muestra la primera versión de la página web.
 
 ## Uso de Git mediante la interfaz de VSCode:
 
@@ -160,19 +182,25 @@ Mediante la interfaz gráfica de Visual Studio, realizamos un nuevo commit para 
 
 <img src="./Capturas/cap07.jpg" width="400px" />
 
+Realizamos un `commit` desde el entorno grafico de Visual Studio
+
 ### Subir el repositorio a Github
 
 Luego de realizar el commit, realizamos la publicación:
 
 <img src="./Capturas/cap08.jpg" width="400px" />
+Publicamos el contenido en la rama correspondiente.
 
 ### Comprobar que está subido a Github
 
 Verificamos en el repositorio de GitHub que todo se ha subido correctamente:
 <img src="./Capturas/cap09.jpg" width="400px" />
 
+Luego de publicar el contenido, accedemos a la página de GitHub para comprobar que el contenido está en la rama correcta.
 ### Ver el listado de commit desde Github.
 
 Vemos los commits realizados desde la página de GitHub:
 
 <img src="./Capturas/cap10.jpg" width="400px" />
+
+Comprobamos los commits realizados hasta el momento.

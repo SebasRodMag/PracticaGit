@@ -10,8 +10,8 @@ body {
   margin-left: 20%;
   display: inline-block;
   background-image: url(./img/Imagen2.png);
-  height: 200px;
-  width: 600px;
+  height: 240px;
+  width: 606px;
 }
 h1{
   text-align: center;
@@ -28,12 +28,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(10, 9, 85, 0.76);
+  background: rgba(25, 9, 85, 0.534);
   font-family: "Oswald", sans-serif;
   
 }
 h2{
   text-align: center;
+  background-color: transparent;
+  color: rgb(25, 9, 85);
 }
 a {
   width: 200px;
@@ -43,7 +45,8 @@ a {
   text-align: center;
   text-decoration: none;
   padding: 20px;
-  color: azure;
+  background-color: transparent;
+  
 }
 figure{
   display:inline-block;
@@ -52,23 +55,35 @@ figure{
 }
 .Imagen{
   width: 100%;
-  
 }
 .imgtab{
-  height: 150px;
-  width: 200px;
+  height: 50px;
+  width: 50px;
 }
 .nombretab{
-  width: 200px;
-  /* background-color: brown; */
+  width: 150px;
   border-bottom-color: rgba(60, 58, 158, 0.452);
+  
 }
 table{
     text-align: center;
     border-style: solid;
     border-color: transparent;
+    margin-left: 15%;
 }
 td{
   border-style: solid;
   border-color: rgba(36, 20, 180, 0.185);
+}
+fieldset{
+  border-color: rgba(36, 20, 180, 0.185);
+}
+textarea{
+  width: 50%;
+  height: 60px;
+  border-color: rgba(36, 20, 180, 0.185);
+}
+input{
+  border-color: transparent;
+  border-bottom-color: rgba(36, 20, 180, 0.185);
 }

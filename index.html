@@ -12,14 +12,19 @@
     <header>
         <div class="fondo">
             <h1>Informatica Roquetas</h1>
-        </div>
-    </header>
-    <p></p>
-    <nav id="menu">
+            <nav id="menu">
         <a href="#Seccionprincipal"><b>Principal</b></a>
         <a href="#Seccionproductos"><b>Producto</b></a>
         <a href="#Seccioninformacion"><b>Información</b></a>
     </nav>
+        </div>
+    </header>
+    <p></p>
+    <!-- <nav id="menu">
+        <a href="#Seccionprincipal"><b>Principal</b></a>
+        <a href="#Seccionproductos"><b>Producto</b></a>
+        <a href="#Seccioninformacion"><b>Información</b></a>
+    </nav> -->
 
     <section>
         <h2><span id="Seccionprincipal" class="Principal">Soluciones Informaticas</span></h2>
@@ -144,35 +149,38 @@
         <h2><span id="Seccioninformacion" class="Principal">Información</span></h2>
         <form>
             <fieldset>
-                <legend> Contacto </legend>
-                <p><label>Nombre completo: <input type="text" placeholder="Nombre completo"></label></p>
-                <p><label>Producto: <input type=tel placeholder="Nombre del Producto"></label></p>
-                <p><label>Email: <input type=email placeholder="email@ejemplo.com"></label></p>
-                <p><label>Fecha: <input type="date"></label></p>
-                <label for="Idiomas">Selecciones un idioma:</label>
-                <select id="Idiomas" name="lista_idiomas" required>
-                    <option value=""> Español</option>
-                    <option value="1"> Ingles </option>
-                    <option value="2"> Frances </option>
-                </select>
+                <fieldset>
+                    <legend> Contacto </legend>
+                    <div class="formulario">
+                        <p><label class="etiquetalab">Nombre completo: <input type="text" placeholder="Aquí, tu nombre completo"></label></p>
+                        <p><label class="etiquetalab">Nombre del producto: <input type=tel placeholder="Aquí, nombre del producto"></label></p>
+                        <p><label class="etiquetalab">Email: <input type=email placeholder="Aquí, tu email"></label></p>
+                        <p><label class="etiquetalab">Fecha: <input type="date"></label></p>
+                        <label class="etiquetalab" for="Idiomas">Selecciones un idioma:</label>
+                        <select id="Idiomas" name="lista_idiomas" required>
+                            <option value=""> Español</option>
+                            <option value="1"> Ingles </option>
+                            <option value="2"> Frances </option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend> Categorias </legend>
+                    <p>
+                        <label> <input type=radio name=size> Impresoras </label>
+                        <label> <input type=radio name=size> Mouse </label>
+                        <label> <input type=radio name=size> Monitor </label>
+                    </p>
+                    <p>
+                        <label>Preguntas u observaciones: </label>
+                    </p>
+                    <textarea placeholder="No olvide seguirnos en las redes sociales"></textarea>
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar">
+                    </p>
+                </fieldset>
             </fieldset>
-            <fieldset>
-                <legend> Categorias </legend>
-                <p>
-                    <label> <input type=radio name=size> Impresoras </label>
-                    <label> <input type=radio name=size> Mouse </label>
-                    <label> <input type=radio name=size> Monitor </label>
-                </p>
-                <p>
-                    <label>Preguntas u observaciones: </label>
-                </p>
-                <textarea placeholder="No olvide seguirnos en las redes sociales"></textarea>
-                <p>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Limpiar">
-                </p>
-            </fieldset>
-           
         </form>
     </section>
 
