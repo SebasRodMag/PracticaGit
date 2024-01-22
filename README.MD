@@ -1,9 +1,9 @@
 ## PRÁCTICA GIT, MARKDOWN, GITHUB
 ## Identificación.
-* Andrés Sebastián Rodríguez Magallanes\
-* Lenguaje de Marcas y Sistemas de Gestión.\
-* IES Aguadulce.\
-* 1º Desarrollo de Aplicaciones Web.\
+* Andrés Sebastián Rodríguez Magallanes
+* Lenguaje de Marcas y Sistemas de Gestión.
+* IES Aguadulce.
+* 1º Desarrollo de Aplicaciones Web.
 * Enlace a la web [Informatica Roquetas](https://sebasrodmag.github.io/PracticaGit/ "Link a la página")
 
 ## Uso de Git mediante la terminal git bash.
